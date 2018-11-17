@@ -2050,8 +2050,8 @@ object MainForm: TMainForm
                 'highlightCfg: {'#13#10'                            strokeStyle: '#39'red'#39',' +
                 #13#10'                            lineWidth: 3'#13#10'                  },' +
                 #9#9#9#9#9#9#13#10#9#9#9#9#9#9'donut:70,'#13#10'                  style: {stroke: '#39'whit' +
-                'e'#39',lineWidth: 2},'#13#10'                  field:"A",label:{field:"LL"' +
-                '}                  '#13#10#9#9#9#9#9' }]; '#13#10'}'
+                'e'#39',lineWidth: 2},'#13#10'                  angleField:"A",label:{field' +
+                ':"LL"}                  '#13#10#9#9#9#9#9' }]; '#13#10'}'
               
                 'beforeInit=function beforeInit(sender, config)'#13#10'{'#13#10'  config.bord' +
                 'er=false;'#13#10'}')
@@ -3062,11 +3062,11 @@ object MainForm: TMainForm
                 'c'#39',fill:'#39'#8acc8f'#39'}},'#13#10'                  {type:"line",fill:true,s' +
                 'mooth:true,showInLegend:false,highlight:false,showMarkers:false,' +
                 'title:"UniLineSeries2",xField:"LL",yField:"B",style:{stroke: '#39'#7' +
-                'ccbf2'#39',fill:'#39'#85bfdb'#39'}}'#13#10'                ];'#13#10'  config.axes=[{gri' +
-                'd:false,type:"Numeric",position:"left",fields:["A","B"],label:{s' +
-                'troke:'#39'#d8d8d8'#39',font: '#39'normal 10px Arial'#39'}},{type:"Category",pos' +
-                'ition:"bottom",fields:["LL"],label:{stroke:'#39'#d8d8d8'#39',font: '#39'norm' +
-                'al 10px Arial'#39'}}];                '#13#10'}')
+                'ccbf2'#39',fill:'#39'#85bfdb'#39'}}'#13#10'                ];'#13#10'  //config.axes=[{g' +
+                'rid:false,type:"Numeric",position:"left",fields:["A","B"],label:' +
+                '{stroke:'#39'#d8d8d8'#39',font: '#39'normal 10px Arial'#39'}},{type:"Category",p' +
+                'osition:"bottom",fields:["LL"],label:{stroke:'#39'#d8d8d8'#39',font: '#39'no' +
+                'rmal 10px Arial'#39'}}];                '#13#10'}')
             LayoutConfig.Flex = 80
             LayoutConfig.BodyPadding = '10'
             LayoutConfig.Width = '100%'
